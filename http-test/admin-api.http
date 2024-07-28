@@ -1,0 +1,36 @@
+###
+POST http://localhost:8080/admin/api/v1/performance/register/1
+Content-Type: application/json
+
+{
+  "name": "test",
+  "ticket_prices": [
+    {
+      "name": "VIP",
+      "price": 150.00,
+      "seat_grade": "A",
+      "seat_grade_name": "VIP",
+      "description": "Front row seats",
+      "sale_price": 120.00
+    },
+    {
+      "name": "Standard",
+      "price": 100.00,
+      "seat_grade": "B",
+      "seat_grade_name": "Standard",
+      "description": "Middle row seats",
+      "sale_price": 80.00
+    }
+  ],
+  "description": "",
+  "start_time": "2024-07-29T10:15:30Z",
+  "end_time": "2024-07-29T12:15:30Z",
+  "poster_url": "test",
+  "cast": "test",
+  "crew": "test",
+  "running_time": 120,
+  "product_company": "test",
+  "status": "PREPARE",
+  "category": "THEATER",
+  "viewing_age": "ALL"
+}
